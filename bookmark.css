@@ -1,0 +1,29 @@
+#main{
+	margin-top:50px;
+}
+h2{
+	font-size:64px;
+	font-family: Cantarell;
+	text-shadow:0 5px 0 rgba(0,0,0,0.3);
+}
+td{
+	font-family: Agency FB;
+	font-size:20px;
+}
+th
+{
+	font-family: Baskerville Old Face;
+	font-size:25px;
+}
+label
+{
+	font-family: Baskerville Old Face;
+	font-size:15px;
+}
+table{
+	margin-top:50px;
+}
+button{
+	font-family: Agency FB;
+	font-size:20px;
+}
