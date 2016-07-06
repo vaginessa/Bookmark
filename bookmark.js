@@ -24,6 +24,9 @@ app.controller('myCtrl',function($scope,$location){
 			$scope.showBookmark.push(
 				{id:newid, url:$scope.addUrl, title:$scope.addTitle, tag:$scope.addTag}
 			);
+				$scope.addUrl   = "";
+				$scope.addTitle = "";
+				$scope.addTag   = "";
 		}
 			
 		
@@ -39,10 +42,6 @@ app.controller('myCtrl',function($scope,$location){
 		$scope.orderByList = item;
 	}
 	
-	$scope.clearData = function(){
-		$scope.addUrl   = "";
-		$scope.addTitle = "";
-		$scope.addTag   = "";
-	}
+	
 	
 });
